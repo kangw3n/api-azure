@@ -5,7 +5,7 @@ const app = express();
 app.get("/", async (req, res) => {
   return res.json({
     state: true,
-    message: "API-Services Available",
+    message: "API-Services Available 2",
   });
 });
 
